@@ -10,9 +10,6 @@ load_dotenv()
 API_KEY = os.getenv("YOUTUBE_API_KEY")
 DB_NAME = "database.db"
 
-if not API_KEY:
-    raise ValueError("YOUTUBE_API_KEY not found in .env file")
-
 def get_all_tracked_channels():
     conn = sqlite3.connect(DB_NAME)
     cur = conn.cursor()

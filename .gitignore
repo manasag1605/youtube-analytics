@@ -10,3 +10,6 @@ database.db
 *.db
 *.sqlite
 .DS_Store
+channels.csv
+videos.csv
+video_stats.csv
