@@ -37,7 +37,7 @@ Libraries: requests, sqlite3, python-dotenv
 youtube-analytics/
 │── fetch_youtube_data.py       # Main Python logic
 │── database.db                 # SQLite database (stores historical stats)
-│── .env                        # YouTube API Key (not committed)
+│── .env                        # YouTube API Key 
 │── .gitignore                  # Prevents DB and env files from being pushed
 │── requirements.txt            # Python dependencies
 └── YouTube_Dashboard.pbix      # Power BI dashboard file
