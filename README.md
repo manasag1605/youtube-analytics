@@ -3,7 +3,7 @@
 ```text
 An automated data pipeline that scrapes YouTube creator data using the YouTube Data API v3, stores daily snapshots in a SQLite database, and visualizes channel growth in Power BI.
 - Includes two modes of interaction:
-- Automatic Database Refresh (Daily Tracking)
+- Automatic Database Refresh 
 - New Channel Discovery & Management
 ```
 
@@ -24,7 +24,7 @@ An automated data pipeline that scrapes YouTube creator data using the YouTube D
 ## Tech Stack:
 
 ```text
-Language: Python 3.x
+Language: Python 
 API: YouTube Data API v3
 Database: SQLite
 Visualization: Power BI Desktop
